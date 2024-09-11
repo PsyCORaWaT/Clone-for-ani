@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="Ie=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freebook</title>
+    <link rel="stylesheet" href="style.css" />
+    <a href='https://dryicons.com/free-icons/location'> <!-- Icon by Dryicons  --></a>
+    
+  </head>
+  
+  <body>
+   <header>   
+    <nav>
+      <div class="nav-left">
+        <img src="Source Img/logo.png" alt="Logo" class="logo" />
+        <ul>
+          <li><img src="Source Img/notification.png" alt="Notify" /></li>
+          <li><img src="Source Img/inbox.png" alt="inbox" /></li>
+          <li><img src="Source Img/video.png" alt="video" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="Source Img/search.png" alt="" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="Source Img/luffy.png" alt="yo" />
+        </div>
+      </div>
+      <!---------- Setting Menu  --------------->
+      <div class="setting-menu">
+
+
+        <div id="darkbtn">
+          <span></span>
+        </div>
+
+       <div class="setting-menu-inner">
+
+         <div class="user-profile">
+           <img src="Source Img/luffy.png" alt="" id="id-user-profile">
+           <div>
+             <p> Monkey D. Luffy</p>
+             <a href="#"> &nbsp;See Your Profile</a>
+           </div>
+         </div>
+         <hr>
+         <div class="user-profile">
+           <img src="Source Img/feedback.png" alt="" id="id-user-profile">
+           <div>
+             <p> Give Feedback</p>
+             <a href="#"> &nbsp; Help us to improve our content </a>
+           </div>
+         </div>
+         <hr>
+
+         <div class="setting-links">
+          <img src="Source Img/setting.png" alt="" class="setting-icon">
+          <a href="#">Setting & Privacy <img src="Source Img/arrow.png" alt="" width="08px"></a> 
+         </div>
+         <div class="setting-links">
+          <img src="Source Img/help.png" alt="" class="setting-icon">
+          <a href="#">Help & Support <img src="Source Img/arrow.png" alt="" width="08px"></a> 
+         </div>
+         <div class="setting-links">
+          <img src="Source Img/display.png" alt="" class="setting-icon">
+          <a href="#">Display & Accessibility <img src="Source Img/arrow.png" alt="" width="08px"></a> 
+         </div>
+         <div class="setting-links">
+          <img src="Source Img/logout.png" alt="" class="setting-icon">
+          <a href="#">Logout <img src="Source Img/arrow.png" alt="" width="08px"></a> 
+         </div>
+
+
+
+       </div>
+
+      </div>
+
+    </nav>
+  </header>
+    <div class="content">
+      <!-- Left-sidebar -->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="Source Img/news.png" alt="Latest news" /> Latest NEWS
+          </a>
+          <a href="#"
+            ><img src="Source Img/friends.png" alt="Friends" />Friends</a
+          >
+          <a href="#">
+            <img src="Source Img/group.png" alt="Groups" /> Groups
+          </a>
+          <a href="#">
+            <img src="Source Img/marketplace.png" alt="Marketplace" />
+            Marketplace
+          </a>
+          <a href="#"
+            ><img src="Source Img/watch.png" alt="" srcset="" />Watch</a
+          >
+          <a href="#">See More</a>
+        </div>
+        <div class="shortcut-links">
+          <p>Your Shortcuts</p>
+          <a href="#"
+            ><img src="Source Img/shortcut-1.png" alt="shortcut1" />Web
+            Devoloper</a
+          >
+          <a href="#"><img src="Source Img/shortcut-2.png" alt="sh2" /> Web Design </a>
+          <a href="#"><img src="Source Img/shortcut-3.png" alt="shot3" />Full Stack Development </a>
+          <a href="#"><img src="Source Img/shortcut-4.png" alt="shot4" /> Website Expert</a>
+        </div>
+      </div>
+      <!-- main-content -->
+      <div class="main-content">
+
+
+        <div class="story-gall">
+            <div class="story ss1">
+               <img src="Source Img/upload.png" alt="#">
+               <p>Post Story</p>
+            </div>
+            <div class="story ss2">
+              <img src="Source Img/Robin-icon.jpg" alt="#">
+              <p>Nico Robin</p>
+           </div>
+           <div class="story ss3">
+            <img src="Source Img/Zoro-icon.jpg" alt="#">
+            <p>Roronoa Zoro</p>
+         </div>
+         <div class="story ss4">
+          <img src="Source Img/Vivi-Icon.jpg" alt="#">
+          <p>Nefertari Vivi</p>
+       </div>
+       <div class="story ss5">
+        <img src="Source Img/Ussop-icon.jpg" alt="#">
+        <p>God Ussop</p>
+     </div>
+        </div>
+
+        <div class="right-post-container">
+            <div class="user-profile">
+              <img src="Source Img/luffy.png" alt="" id="id-user-profile">
+              <div>
+                <p>Monkey D. Luffy</p>
+                <small id="public">Public &nbsp;<img src="Source Img/down-arrow.svg" alt="" class="rpc-icon"></small>
+              </div>
+            </div>
+
+            <div class="post-input-container">
+              <textarea rows="3" placeholder="What's in your mind Luffy" id="textar"></textarea>
+            </div>
+            <div class="add-post-links">
+              <a href="#"><img src="Source Img/video.svg" alt="" id="video">Live Video</a>
+              <a href="#"><img src="Source Img/photo.png" alt="">Photo/Video</a>
+              <a href="#"><img src="Source Img/feeling.png" alt="">Live Video</a>
+            </div>
+
+        </div>
+        
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="Source Img/luffy.png" alt="" id="id-user-profile">
+              <div>
+                <p>Monkey D. Luffy</p>
+                <span>Nov. 15 2020, 01:40 pm</span>
+              </div>
+            </div>
+            <a href="#"><img src="Source Img/dots-menu.png" alt="" id="rpc-icon2"></a>
+          </div>
+          <p class="post-text"> Lorem ipsum dolor, sit <span> amet consectetur</span> adipisicing elit. Cupiditate ex cumque vero quaerat eligendi labore! <a href="#" target="_blank" rel="noopener noreferrer">#easylife</a> <a href="#" target="_blank" rel="noopener noreferrer">#YouTube</a></p>
+          <img src="Source Img/luffy-post.png" alt="feed-image-1" class="postimg">
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="Source Img/like-blue.png" alt="like">154k</div>
+              <div><img src="Source Img/comments.png" alt="like">65k</div>
+              <div><img src="Source Img/share.png" alt="like">41k</div>
+            </div>
+            <div class="post-profile-icon">  
+              <img src="Source Img/luffy.png" alt=""><img src="Source Img/down-arrow.svg" alt="" class="rpc-icon">
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="Source Img/Zoro-icon.jpg" alt="" id="id-user-profile">
+              <div>
+                <p>Roronoa Zoro</p>
+                <span>Nov. 22 2020, 04:40 pm</span>
+              </div>
+            </div>
+            <a href="#"><img src="Source Img/dots-menu.png" alt="" id="rpc-icon2"></a>
+          </div>
+          <p class="post-text"> Lorem ipsum dolor, sit <span> amet consectetur</span> adipisicing elit. Cupiditate ex cumque vero quaerat eligendi labore! <a href="#" target="_blank" rel="noopener noreferrer">#easylife #skypiea</a> <a href="#" target="_blank" rel="noopener noreferrer">#YouTube</a></p>
+          <img src="Source Img/zoro.png" alt="feed-image-1" class="postimg">
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="Source Img/like-blue.png" alt="like">110k</div>
+              <div><img src="Source Img/comments.png" alt="like">36k</div>
+              <div><img src="Source Img/share.png" alt="like">8k</div>
+            </div>
+            <div class="post-profile-icon">  
+              <img src="Source Img/Zoro-icon.jpg" alt=""><img src="Source Img/down-arrow.svg" alt="" class="rpc-icon">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="Source Img/sanji.png" alt="" id="id-user-profile">
+              <div>
+                <p>Vinsmoke Sanji</p>
+                <span>Dec. 08 2020, 10:30 am</span>
+              </div>
+            </div>
+            <a href="#"><img src="Source Img/dots-menu.png" alt="" id="rpc-icon2"></a>
+          </div>
+          <p class="post-text"> Lorem ipsum dolor, sit <span> amet consectetur</span> adipisicing elit. Cupiditate ex cumque vero quaerat eligendi labore! <a href="#" target="_blank" rel="noopener noreferrer">#nami-san</a> <a href="#" target="_blank" rel="noopener noreferrer">#robin-chan</a></p>
+          <img src="Source Img/sanji-post.png" alt="feed-image-1" class="postimg">
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="Source Img/like-blue.png" alt="like">86k</div>
+              <div><img src="Source Img/comments.png" alt="like">22k</div>
+              <div><img src="Source Img/share.png" alt="like">86k</div>
+            </div>
+            <div class="post-profile-icon">  
+              <img src="Source Img/Nami-icon.jpg" alt=""><img src="Source Img/down-arrow.svg" alt="" class="rpc-icon">
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="Source Img/Nami-icon.jpg" alt="" id="id-user-profile">
+              <div>
+                <p>Nami</p>
+                <span>Dec. 12 2020, 08:40 am</span>
+              </div>
+            </div>
+            <a href="#"><img src="Source Img/dots-menu.png" alt="" id="rpc-icon2"></a>
+          </div>
+          <p class="post-text"> Lorem ipsum dolor, sit <span> amet consectetur</span> adipisicing elit. Cupiditate ex cumque vero quaerat eligendi labore! <a href="#" target="_blank" rel="noopener noreferrer">#easylife</a> <a href="#" target="_blank" rel="noopener noreferrer">#YouTube</a></p>
+          <img src="Source Img/nami-post.png" alt="feed-image-1" class="postimg">
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="Source Img/like-blue.png" alt="like">86k</div>
+              <div><img src="Source Img/comments.png" alt="like">22k</div>
+              <div><img src="Source Img/share.png" alt="like">86k</div>
+            </div>
+            <div class="post-profile-icon">  
+              <img src="Source Img/Nami-icon.jpg" alt=""><img src="Source Img/down-arrow.svg" alt="" class="rpc-icon">
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="Source Img/o-tama.png" alt="" id="id-user-profile">
+              <div>
+                <p>O-Tama</p>
+                <span>Dec. 05 2020, 08:40 am</span>
+              </div>
+            </div>
+            <a href="#"><img src="Source Img/dots-menu.png" alt="" id="rpc-icon2"></a>
+          </div>
+          <p class="post-text"> Lorem ipsum dolor, sit <span> amet consectetur</span> adipisicing elit. Cupiditate ex cumque vero quaerat eligendi labore! <a href="#" target="_blank" rel="noopener noreferrer">#freedome</a> <a href="#" target="_blank" rel="noopener noreferrer">#BigBro</a></p>
+          <img src="Source Img/tama.png" alt="feed-image-1" class="postimg">
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="Source Img/like-blue.png" alt="like">86k</div>
+              <div><img src="Source Img/comments.png" alt="like">22k</div>
+              <div><img src="Source Img/share.png" alt="like">86k</div>
+            </div>
+            <div class="post-profile-icon">  
+              <img src="Source Img/Nami-icon.jpg" alt=""><img src="Source Img/down-arrow.svg" alt="" class="rpc-icon">
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="lode-more-button">Load More</button>
+
+      
+      </div>
+
+      <!-- right-sidebar -->
+      <div class="right-sidebar">
+        
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+
+          <div class="event">
+            <div class="left-event">
+              <h3>18</h3>
+              <span>March</span>
+            </div>
+            <div class="right-event">
+              <h4>Social Media</h4>
+              <p> <img src="Source Img/Locationn.svg" alt="location_on" class="location_on"> Grand Line</p>
+              <a href="#">More InFo</a>
+            </div>
+          </div>
+
+          <div class="event">
+            <div class="left-event">
+              <h3>29</h3>
+              <span>June</span>
+            </div>
+            <div class="right-event">
+              <h4>Tech Talk</h4>
+              <p><img src="Source Img/Locationn.svg" alt="location_on" class="location_on"> </span> Grand Line</p>
+              <a href="#">More InFo</a>
+            </div>
+          </div>
+          <div class="sidebar-title">
+            <h4>Advertisement</h4>
+            <a href="#">See All</a>
+          </div>
+          <img src="Source Img/Garp-Sengoku.png" alt="advertisement" class="sidebar-ad">
+          <div class="sidebar-title">
+            <h4>Conversation</h4>
+            <a href="#">Hide Chat</a>
+          </div>
+          
+          <div class="online-list">
+             <div class="online">
+              <img src="Source Img/Nami-icon.jpg" alt="">
+             </div>
+             <p>Nami</p>
+          </div>
+
+          <div class="online-list">
+            <div class="online">
+             <img src="Source Img/Zoro-icon.jpg" alt="">
+            </div>
+            <p>Roronoa Zoro</p>
+         </div>
+
+         <div class="online-list">
+          <div class="online">
+           <img src="Source Img/Vivi-Icon.jpg" alt="">
+          </div>
+          <p>Nefertari Vivi</p>
+       </div>
+
+      </div>
+    </div>
+
+
+  <footer>
+   <p>&#169 Copyright 2024 - One Piece</p>
+  </footer>
+
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
